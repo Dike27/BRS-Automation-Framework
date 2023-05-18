@@ -1,0 +1,38 @@
+{
+  "name": "dbs",
+  "version": "1.0.0",
+  "description": "DBS Cypress Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "triggerAllTests-dashboard": "npx cypress run --record --key 31b7505c-e967-4911-b614-67fdef4e2ced",
+    "triggerAllTests-headless": "npx cypress run",
+    "triggerAllTests-headed": "npx cypress run -- headed",
+    "triggerAllTests-chrome": "npx cypress run -- headed --browser chrome",
+    "triggerAllTests-firefox": "npx cypress run -- headed --browser firefox",
+    "triggerAllTestRegulatedActivityEmployer": "npx cypress run --spec cypress/e2e/BRS/regulatedActivityEmployer",
+    "triggerAllTestRegulatedActivityVolunteers": "npx cypress run --spec cypress/e2e/BRS/regulatedActivityVolunteers",
+    "triggerAllTestEmploymentPersonnelSupplier": "npx cypress run --spec cypress/e2e/BRS/employmentPersonnelSupplier",
+    "triggerAllTestEducationalInstitute": "npx cypress run --spec cypress/e2e/BRS/educationalInstitute",
+    "triggerAllTestLocalAuthorityOrGovernment": "npx cypress run --spec cypress/e2e/BRS/localAuthorityOrGovernment",
+    "triggerAllTestKeeperOfRegisterOrSupervisoryAuthority": "npx cypress run --spec cypress/e2e/BRS/keeperOfRegisterOrSupervisoryAuthority",
+    "triggerAllTestsOther": "npx cypress run --spec cypress/e2e/BRS/Other",
+    "junit-merge": "npx junit-merge -d cypress/result/junit/results -o cypress/result/junit/results.xml",
+    "delete-junit-report": "rm -rf cypress/results/junit/results.xml",
+    "delete-results": "rm -rf mochawesome-report/* || true",
+    "mochawesome-merge": " npx mochawesome-merge cypress/results/mochawesome/*.json > mochawesome.json && npx marge mochawesome.json",
+    "delete-mochawesome-report": "rm -rf mochawesome-report/* || true",
+    "cypress-regression-pack": "npm run delete-results && npm run delete-mochawesome-report && npm run triggerAllTests-headless && npm run mochawesome-merge",
+    "triggerAllTestsOther-staging": "npx cypress run --spec cypress/e2e/BRS/Other --env configFile=staging",
+    "cypress-regression-pack-dashboard": "npm run delete-results && npm run delete-mochawesome-report && npm run triggerAllTests-headless --record --key 31b7505c-e967-4911-b614-67fdef4e2ced && npm run mochawesome-merge"
+  },
+  "author": "Anthony Collins",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.11.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "mocha-junit-reporter": "^2.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}

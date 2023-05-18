@@ -1,0 +1,55 @@
+class ReferredPersonDetails_PO {
+  getReferredPersonDetails() {
+    cy.get(':nth-child(2) > .app-task-list__task-name > a').click()
+    //cy.get('a[href="/referred-person/name').click();
+    cy.get("#first-and-middle-name-input").type(data.first_middle_name);
+    cy.get("#last-name-input").type(data.last_name2);
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-0").click();
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-1").click();
+    cy.get("#dob-input-DD").type(data.dob_DD);
+    cy.get("#dob-input-MM").type(data.dob_MM);
+    cy.get("#dob-input-YYYY").type(data.dob_YYYY);
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-Male").click();
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-1").click();
+    cy.get("#referred-nino-input").type("SG914387D");
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-1").click();
+    cy.get("#save-and-continue").click();
+    cy.get("#nationality").click();
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-1").click();
+    cy.get("#save-and-continue").click();
+    cy.get("#last-known-address-postcode-lookup-input").type(data.postcode2);
+    cy.get("#lookup-button").click();
+    cy.get("#last-known-address-select-box").select(13);
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-1").click();
+    cy.get("#save-and-continue").click();
+    cy.get("#last-known-address-from-input-DD").type(
+      data.last_known_address_DD
+    );
+    cy.get("#last-known-address-from-input-MM").type(
+      data.last_known_address_MM
+    );
+    cy.get("#last-known-address-from-input-YYYY").type(
+      data.last_known_address_YYYY
+    );
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-0").click();
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-1").click();
+    cy.get("#save-and-continue").click();
+    cy.get("#referred-telephone-input").type(data.phone2);
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-1").click();
+    cy.get("#referred-email-input").type(data.email2);
+    cy.get("#save-and-continue").click();
+    cy.get("#radio-option-1").click();
+    cy.get("#save-and-continue").click();
+  }
+}
+export default ReferredPersonDetails_PO;
