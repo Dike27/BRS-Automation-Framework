@@ -4,7 +4,7 @@
   "description": "DBS Cypress Automation Framework",
   "main": "index.js",
   "scripts": {
-    "triggerAllTests-dashboard": "npx cypress run --record --key 31b7505c-e967-4911-b614-67fdef4e2ced",
+    "triggerAllTests-dashboard": "npx cypress run --record --key 31b7505c-e967-4911-b614-67fdef4e2ced --parallel",
     "triggerAllTests-headless": "npx cypress run",
     "triggerAllTests-headed": "npx cypress run -- headed",
     "triggerAllTests-chrome": "npx cypress run -- headed --browser chrome",
