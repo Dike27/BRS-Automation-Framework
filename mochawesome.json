@@ -1,20 +1,20 @@
 {
   "stats": {
-    "suites": 46,
-    "tests": 46,
-    "passes": 32,
+    "suites": 76,
+    "tests": 76,
+    "passes": 62,
     "pending": 0,
     "failures": 14,
-    "testsRegistered": 46,
-    "passPercent": 69.56521739130434,
+    "testsRegistered": 76,
+    "passPercent": 81.57894736842105,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false,
     "start": "2023-05-17T09:15:25.071Z",
-    "end": "2023-05-18T15:23:28.072Z",
-    "duration": 108483001
+    "end": "2023-06-13T10:03:40.026Z",
+    "duration": 2335694955
   },
   "results": [
     {
@@ -2669,6 +2669,1746 @@
           "pending": [],
           "skipped": [],
           "duration": 142956,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "27d6e8a9-858b-4685-8d66-e69af70803c9",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\educationalInstitute\\educationalInstitute.js",
+      "file": "cypress\\e2e\\BRS\\educationalInstitute\\educationalInstitute.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f983d2d5-017e-44a0-8b62-726aeffb8e65",
+          "title": "Educational institute Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a BRS referral for an educational institute",
+              "fullTitle": "Educational institute Referral Complete a BRS referral for an educational institute",
+              "timedOut": null,
+              "duration": 84512,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\ncourseDetails.getReviewAndSubmit();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "8aec65dc-1f4a-44a1-a97f-96475525db7b",
+              "parentUUID": "f983d2d5-017e-44a0-8b62-726aeffb8e65",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8aec65dc-1f4a-44a1-a97f-96475525db7b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 84512,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "1568b389-9766-4a20-a350-accf391b0281",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\Other\\otherReferralType.js",
+      "file": "cypress\\e2e\\BRS\\Other\\otherReferralType.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "95bc7278-9620-45cf-b3fe-0b77617430a9",
+          "title": "Complete a Other Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "fullTitle": "Complete a Other Referral Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "timedOut": null,
+              "duration": 129702,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "otherStartPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "bd263d4c-f903-401f-b513-5188c7370eaf",
+              "parentUUID": "95bc7278-9620-45cf-b3fe-0b77617430a9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bd263d4c-f903-401f-b513-5188c7370eaf"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 129702,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "2f867e5c-95e1-4680-8d6c-b17ba3444214",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\educationalInstitute\\educationalInstitute.js",
+      "file": "cypress\\e2e\\BRS\\educationalInstitute\\educationalInstitute.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "31aa0318-bbc5-4da9-a626-7fc852810c83",
+          "title": "Educational institute Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a BRS referral for an educational institute",
+              "fullTitle": "Educational institute Referral Complete a BRS referral for an educational institute",
+              "timedOut": null,
+              "duration": 80195,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\ncourseDetails.getReviewAndSubmit();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "70f75df5-a967-43cc-b3da-e7da4c49a962",
+              "parentUUID": "31aa0318-bbc5-4da9-a626-7fc852810c83",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "70f75df5-a967-43cc-b3da-e7da4c49a962"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 80195,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "1748493c-7ce4-4bf3-a9e6-181297f0973f",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\employmentPersonnelSupplier\\employmentPersonnelSupplier.js",
+      "file": "cypress\\e2e\\BRS\\employmentPersonnelSupplier\\employmentPersonnelSupplier.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9cb4ded4-9517-40f9-a898-7b4f8f3f07e6",
+          "title": "Employment personnel supplier referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a employment personnel supplier referral",
+              "fullTitle": "Employment personnel supplier referral Complete a employment personnel supplier referral",
+              "timedOut": null,
+              "duration": 77656,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\nsupplyAgencyDetails.getSupplyAgencyDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "a1903d46-b851-49f6-93eb-24b9f33d1565",
+              "parentUUID": "9cb4ded4-9517-40f9-a898-7b4f8f3f07e6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a1903d46-b851-49f6-93eb-24b9f33d1565"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 77656,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "bdcc18d8-813a-494b-83ff-aeb6e670b3e7",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\keeperOfRegisterOrSupervisoryAuthority\\6. keeperOfRegisterOrSupervisoryAuthority.js",
+      "file": "cypress\\e2e\\BRS\\keeperOfRegisterOrSupervisoryAuthority\\6. keeperOfRegisterOrSupervisoryAuthority.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ae3420d0-18ef-47c0-b547-48e97cfccb12",
+          "title": "Keeper of Register or Supervisory Authority Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "fullTitle": "Keeper of Register or Supervisory Authority Referral Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "timedOut": null,
+              "duration": 66835,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "7475a9b9-b93d-450f-a64e-1de160eba60e",
+              "parentUUID": "ae3420d0-18ef-47c0-b547-48e97cfccb12",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7475a9b9-b93d-450f-a64e-1de160eba60e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 66835,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "d7fc1360-ee8d-4bfd-9ce3-f135362d9aa4",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment.js",
+      "file": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "88434c68-0fcf-4859-9f7d-49abffcb9492",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete and submit a local authority or government referral questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete and submit a local authority or government referral questionnaire",
+              "timedOut": null,
+              "duration": 66927,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "b7e2daa3-286b-46bc-b31c-0319b88ce5f6",
+              "parentUUID": "88434c68-0fcf-4859-9f7d-49abffcb9492",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b7e2daa3-286b-46bc-b31c-0319b88ce5f6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 66927,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "b7128f08-a5dd-4252-9c98-cb4ab0bc73ab",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment2.js",
+      "file": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "074d0b5f-cd22-49cb-98d5-983739d6f9fc",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Referrer's Detail Questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete a Referrer's Detail Questionnaire",
+              "timedOut": null,
+              "duration": 7893,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "common.clickButton(\"start\");\ncommon.pageHeader.should(\"contain\", \"What type of referrer are you?\");\nwhatTypeOfReferrerPage.radioOption(data.localAuthority).click();\ncommon.continue();\n//Name Page\ncommon.pageHeader.should(\"contain\", \"What is your name\");\ncommon.inputField(\"First name\", \"Alex\");\ncommon.inputField(\"Last name\", \"Dunga\");\ncommon.continue();\n//Role or job title page\ncommon.pageHeader.should(\"contain\", \"What is your role or job title?\");\nwhatIsRoleOrJobTitle.roleOrJobTitleField.type(data.job_title);\ncommon.continue();\n// What sector do you work in page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What sector do you work in?\");\nwhatSectorDoYouWorkInPage.sectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSectorDropdownOption(\"childCare\"); //this should be enum really, have provided examples elsewhere\nwhatSectorDoYouWorkInPage.subSectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSubSectorDropdownOption(\"Child minder - registered\"); //this should be enum really, have provided examples elsewhere\ncommon.continue();\n//what is the name of your organisation page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What is the name of your organisation?\");\nwhatIsNameOfYourOrganisationPage.organisationNameField.type(\"Reply\");\ncommon.continue();\n// Address lookup page\ncommon.pageHeader.should(\"contain\", \"Find your organisation's address\");\nfindYourOrganisationAddressPage.enterPostCode(); //SW1E 5LBSW1E 5LB.type('SE19 2AS')\nfindYourOrganisationAddressPage.lookUpAddress();\nfindYourOrganisationAddressPage.selectAddress();\ncommon.continue();\n// Referrer contact numbers\ncommon.pageHeader.should(\"contain\", \"What telephone numbers can you be contacted on?\");\ncommon.primarycontactPhone();\ncommon.secondarycontactPhone();\ncommon.continue();\n//Referrer Page\ncommon.pageHeader.should(\"contain\", \"What is your email address?\");\ncommon.referrerEmail();\ncommon.continue();\n//Relationship page\ncommon.pageHeader.should(\"contain\", \"What is your professional or working relationship with the person you are referring?\");\ncommon.referrerRelationship();\ncommon.continue();\n//More details alternative contact page\ncommon.pageHeader.should(\"contain\", \"Would you like to provide details\");\ncy.contains(\"No\").click();\ncommon.continue();",
+              "err": {},
+              "uuid": "185c0f40-38e7-46b3-a6ff-b2f76435a607",
+              "parentUUID": "074d0b5f-cd22-49cb-98d5-983739d6f9fc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "185c0f40-38e7-46b3-a6ff-b2f76435a607"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7893,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "9c79a34e-212e-49d7-af9b-edb47e32c247",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer.js",
+      "file": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f2160df4-3ad1-4cf6-8038-d03ce6330b60",
+          "title": "Regulated activity provider (employer)",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Regulated activity provider (employer) referral",
+              "fullTitle": "Regulated activity provider (employer) Complete a Regulated activity provider (employer) referral",
+              "timedOut": null,
+              "duration": 70374,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "139fba1e-7e01-4abb-abcd-bf913d1b4893",
+              "parentUUID": "f2160df4-3ad1-4cf6-8038-d03ce6330b60",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "139fba1e-7e01-4abb-abcd-bf913d1b4893"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 70374,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "5fc0d8ac-645b-4850-b3a5-cabe6706e4fc",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer2.js",
+      "file": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4e5d8829-6056-4b20-89a9-ef22d5eeb105",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Referrer's Detail Questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete a Referrer's Detail Questionnaire",
+              "timedOut": null,
+              "duration": 7138,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//referredPersonDetailsPage.referrerDetails\ncommon.clickButton(\"start\");\ncommon.pageHeader.should(\"contain\", \"What type of referrer are you?\");\nwhatTypeOfReferrerPage.radioOption(data.regulatedEmployer).click();\ncommon.continue();\n//Name Page\ncommon.pageHeader.should(\"contain\", \"What is your name\");\ncommon.inputField(\"First name\", \"Alex\");\ncommon.inputField(\"Last name\", \"Dunga\");\ncommon.continue();\n//Role or job title page\ncommon.pageHeader.should(\"contain\", \"What is your role or job title?\");\nwhatIsRoleOrJobTitle.roleOrJobTitleField.type(data.job_title);\ncommon.continue();\n// What sector do you work in page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What sector do you work in?\");\nwhatSectorDoYouWorkInPage.sectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSectorDropdownOption(\"childCare\"); //this should be enum really, have provided examples elsewhere\nwhatSectorDoYouWorkInPage.subSectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSubSectorDropdownOption(\"Child minder - registered\"); //this should be enum really, have provided examples elsewhere\ncommon.continue();\n//what is the name of your organisation page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What is the name of your organisation?\");\nwhatIsNameOfYourOrganisationPage.organisationNameField.type(\"Reply\");\ncommon.continue();\n// Address lookup page\ncommon.pageHeader.should(\"contain\", \"Find your organisation's address\");\nfindYourOrganisationAddressPage.enterPostCode(); //SW1E 5LBSW1E 5LB.type('SE19 2AS')\nfindYourOrganisationAddressPage.lookUpAddress();\nfindYourOrganisationAddressPage.selectAddress();\ncommon.continue();\n// Referrer contact numbers\ncommon.pageHeader.should(\"contain\", \"What telephone numbers can you be contacted on?\");\ncommon.primarycontactPhone();\ncommon.secondarycontactPhone();\ncommon.continue();\n//Referrer Page\ncommon.pageHeader.should(\"contain\", \"What is your email address?\");\ncommon.referrerEmail();\ncommon.continue();\n//Relationship page\ncommon.pageHeader.should(\"contain\", \"What is your professional or working relationship with the person you are referring?\");\ncommon.referrerRelationship();\ncommon.continue();\n//More details alternative contact page\ncommon.pageHeader.should(\"contain\", \"Would you like to provide details\");\ncy.contains(\"No\").click();\ncommon.continue();\n//Complete a Referred person's details Questionnaire\n//cy.contains('Referred person\\'s details').click()",
+              "err": {},
+              "uuid": "42c4f353-d376-4e54-880d-af25c2599506",
+              "parentUUID": "4e5d8829-6056-4b20-89a9-ef22d5eeb105",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "42c4f353-d376-4e54-880d-af25c2599506"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7138,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "526935f3-cd04-4f2a-a945-a0b282e4ba79",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\regulatedActivityVolunteers\\regulatedActivityProvider_volunteers.js",
+      "file": "cypress\\e2e\\BRS\\regulatedActivityVolunteers\\regulatedActivityProvider_volunteers.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7dda1b96-545b-4611-b602-6174c5cb82e7",
+          "title": "Regulated activity provider (employer)",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Regulated activity provider (employer) referral",
+              "fullTitle": "Regulated activity provider (employer) Complete a Regulated activity provider (employer) referral",
+              "timedOut": null,
+              "duration": 105605,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "740a5885-56cb-42a4-8b1d-c1be74f21a1f",
+              "parentUUID": "7dda1b96-545b-4611-b602-6174c5cb82e7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "740a5885-56cb-42a4-8b1d-c1be74f21a1f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 105605,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "3c516a1b-d2b3-4e57-9f4f-87d9177541ef",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment.js",
+      "file": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1206d8ce-c378-402c-b6a6-283d157bdcb8",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete and submit a local authority or government referral questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete and submit a local authority or government referral questionnaire",
+              "timedOut": null,
+              "duration": 172849,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "dc42546a-63ed-4773-9206-3b4588b79fba",
+              "parentUUID": "1206d8ce-c378-402c-b6a6-283d157bdcb8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dc42546a-63ed-4773-9206-3b4588b79fba"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 172849,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "98ccc937-07cd-4c78-a110-1010695da653",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment2.js",
+      "file": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "60d96ec6-7ddc-4fa4-b88c-4305848dcd1e",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Referrer's Detail Questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete a Referrer's Detail Questionnaire",
+              "timedOut": null,
+              "duration": 13864,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "common.clickButton(\"start\");\ncommon.pageHeader.should(\"contain\", \"What type of referrer are you?\");\nwhatTypeOfReferrerPage.radioOption(data.localAuthority).click();\ncommon.continue();\n//Name Page\ncommon.pageHeader.should(\"contain\", \"What is your name\");\ncommon.inputField(\"First name\", \"Alex\");\ncommon.inputField(\"Last name\", \"Dunga\");\ncommon.continue();\n//Role or job title page\ncommon.pageHeader.should(\"contain\", \"What is your role or job title?\");\nwhatIsRoleOrJobTitle.roleOrJobTitleField.type(data.job_title);\ncommon.continue();\n// What sector do you work in page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What sector do you work in?\");\nwhatSectorDoYouWorkInPage.sectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSectorDropdownOption(\"childCare\"); //this should be enum really, have provided examples elsewhere\nwhatSectorDoYouWorkInPage.subSectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSubSectorDropdownOption(\"Child minder - registered\"); //this should be enum really, have provided examples elsewhere\ncommon.continue();\n//what is the name of your organisation page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What is the name of your organisation?\");\nwhatIsNameOfYourOrganisationPage.organisationNameField.type(\"Reply\");\ncommon.continue();\n// Address lookup page\ncommon.pageHeader.should(\"contain\", \"Find your organisation's address\");\nfindYourOrganisationAddressPage.enterPostCode(); //SW1E 5LBSW1E 5LB.type('SE19 2AS')\nfindYourOrganisationAddressPage.lookUpAddress();\nfindYourOrganisationAddressPage.selectAddress();\ncommon.continue();\n// Referrer contact numbers\ncommon.pageHeader.should(\"contain\", \"What telephone numbers can you be contacted on?\");\ncommon.primarycontactPhone();\ncommon.secondarycontactPhone();\ncommon.continue();\n//Referrer Page\ncommon.pageHeader.should(\"contain\", \"What is your email address?\");\ncommon.referrerEmail();\ncommon.continue();\n//Relationship page\ncommon.pageHeader.should(\"contain\", \"What is your professional or working relationship with the person you are referring?\");\ncommon.referrerRelationship();\ncommon.continue();\n//More details alternative contact page\ncommon.pageHeader.should(\"contain\", \"Would you like to provide details\");\ncy.contains(\"No\").click();\ncommon.continue();",
+              "err": {},
+              "uuid": "07b04726-2b65-45ef-a969-80ebcb9e6e40",
+              "parentUUID": "60d96ec6-7ddc-4fa4-b88c-4305848dcd1e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "07b04726-2b65-45ef-a969-80ebcb9e6e40"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13864,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "011a9e6e-967b-4233-92ae-6ec05712dc3b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\Other\\otherReferralType.js",
+      "file": "cypress\\e2e\\BRS\\Other\\otherReferralType.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d1fa288a-6446-4e76-857f-a369ce167529",
+          "title": "Complete a Other Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "fullTitle": "Complete a Other Referral Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "timedOut": null,
+              "duration": 198599,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "otherStartPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "8ca1fcf0-ea39-4949-8584-06d6e0a9722c",
+              "parentUUID": "d1fa288a-6446-4e76-857f-a369ce167529",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8ca1fcf0-ea39-4949-8584-06d6e0a9722c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 198599,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "d8be5983-7d71-4eb2-82ac-9932b3caf106",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\educationalInstitute\\educationalInstitute.js",
+      "file": "cypress\\e2e\\BRS\\educationalInstitute\\educationalInstitute.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9809ca97-45a9-4b4c-b37b-c6a25eca0ebf",
+          "title": "Educational institute Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a BRS referral for an educational institute",
+              "fullTitle": "Educational institute Referral Complete a BRS referral for an educational institute",
+              "timedOut": null,
+              "duration": 165428,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\ncourseDetails.getReviewAndSubmit();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "9857ec66-943d-47f1-b812-5f24857bf6e5",
+              "parentUUID": "9809ca97-45a9-4b4c-b37b-c6a25eca0ebf",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9857ec66-943d-47f1-b812-5f24857bf6e5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 165428,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "d4c3e392-2ee8-4c7e-91fd-d31ec3ade972",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\employmentPersonnelSupplier\\employmentPersonnelSupplier.js",
+      "file": "cypress\\e2e\\BRS\\employmentPersonnelSupplier\\employmentPersonnelSupplier.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a0e3b999-e442-4ad1-9066-4f6b0c1136b9",
+          "title": "Employment personnel supplier referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a employment personnel supplier referral",
+              "fullTitle": "Employment personnel supplier referral Complete a employment personnel supplier referral",
+              "timedOut": null,
+              "duration": 120304,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\nsupplyAgencyDetails.getSupplyAgencyDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "3716990f-5029-47b7-873a-4f9ef4dde186",
+              "parentUUID": "a0e3b999-e442-4ad1-9066-4f6b0c1136b9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3716990f-5029-47b7-873a-4f9ef4dde186"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 120304,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "f752495b-ef0f-4605-aa36-4961d786e553",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\keeperOfRegisterOrSupervisoryAuthority\\6. keeperOfRegisterOrSupervisoryAuthority.js",
+      "file": "cypress\\e2e\\BRS\\keeperOfRegisterOrSupervisoryAuthority\\6. keeperOfRegisterOrSupervisoryAuthority.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d41c40bf-6e4c-4855-98ca-59365005a597",
+          "title": "Keeper of Register or Supervisory Authority Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "fullTitle": "Keeper of Register or Supervisory Authority Referral Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "timedOut": null,
+              "duration": 91230,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "7f924e95-99fa-4696-bdec-95501a8f3049",
+              "parentUUID": "d41c40bf-6e4c-4855-98ca-59365005a597",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7f924e95-99fa-4696-bdec-95501a8f3049"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 91230,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "bb84e5fe-e41a-407d-8155-16da046aebb6",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment.js",
+      "file": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0876561c-aa6d-4100-8174-8eb85522bed8",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete and submit a local authority or government referral questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete and submit a local authority or government referral questionnaire",
+              "timedOut": null,
+              "duration": 96156,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "a333f559-448d-4558-99f6-7bd93662b8cc",
+              "parentUUID": "0876561c-aa6d-4100-8174-8eb85522bed8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a333f559-448d-4558-99f6-7bd93662b8cc"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 96156,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "effcd734-9596-44bc-9ecb-75141d7d456a",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment2.js",
+      "file": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ff954f51-7608-44ae-a9dd-3709a82bbc2b",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Referrer's Detail Questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete a Referrer's Detail Questionnaire",
+              "timedOut": null,
+              "duration": 9319,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "common.clickButton(\"start\");\ncommon.pageHeader.should(\"contain\", \"What type of referrer are you?\");\nwhatTypeOfReferrerPage.radioOption(data.localAuthority).click();\ncommon.continue();\n//Name Page\ncommon.pageHeader.should(\"contain\", \"What is your name\");\ncommon.inputField(\"First name\", \"Alex\");\ncommon.inputField(\"Last name\", \"Dunga\");\ncommon.continue();\n//Role or job title page\ncommon.pageHeader.should(\"contain\", \"What is your role or job title?\");\nwhatIsRoleOrJobTitle.roleOrJobTitleField.type(data.job_title);\ncommon.continue();\n// What sector do you work in page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What sector do you work in?\");\nwhatSectorDoYouWorkInPage.sectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSectorDropdownOption(\"childCare\"); //this should be enum really, have provided examples elsewhere\nwhatSectorDoYouWorkInPage.subSectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSubSectorDropdownOption(\"Child minder - registered\"); //this should be enum really, have provided examples elsewhere\ncommon.continue();\n//what is the name of your organisation page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What is the name of your organisation?\");\nwhatIsNameOfYourOrganisationPage.organisationNameField.type(\"Reply\");\ncommon.continue();\n// Address lookup page\ncommon.pageHeader.should(\"contain\", \"Find your organisation's address\");\nfindYourOrganisationAddressPage.enterPostCode(); //SW1E 5LBSW1E 5LB.type('SE19 2AS')\nfindYourOrganisationAddressPage.lookUpAddress();\nfindYourOrganisationAddressPage.selectAddress();\ncommon.continue();\n// Referrer contact numbers\ncommon.pageHeader.should(\"contain\", \"What telephone numbers can you be contacted on?\");\ncommon.primarycontactPhone();\ncommon.secondarycontactPhone();\ncommon.continue();\n//Referrer Page\ncommon.pageHeader.should(\"contain\", \"What is your email address?\");\ncommon.referrerEmail();\ncommon.continue();\n//Relationship page\ncommon.pageHeader.should(\"contain\", \"What is your professional or working relationship with the person you are referring?\");\ncommon.referrerRelationship();\ncommon.continue();\n//More details alternative contact page\ncommon.pageHeader.should(\"contain\", \"Would you like to provide details\");\ncy.contains(\"No\").click();\ncommon.continue();",
+              "err": {},
+              "uuid": "22ee836b-69bc-4d35-beb5-bf07329e1b1a",
+              "parentUUID": "ff954f51-7608-44ae-a9dd-3709a82bbc2b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "22ee836b-69bc-4d35-beb5-bf07329e1b1a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9319,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "bbdf69f6-1e43-446f-a4d0-b3425c8a59b5",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer.js",
+      "file": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "dd5a52e3-22ce-4660-915a-bd28371980f5",
+          "title": "Regulated activity provider (employer)",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Regulated activity provider (employer) referral",
+              "fullTitle": "Regulated activity provider (employer) Complete a Regulated activity provider (employer) referral",
+              "timedOut": null,
+              "duration": 113042,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "ec3e925e-84ad-4b03-ba0c-de42c5d3fc4e",
+              "parentUUID": "dd5a52e3-22ce-4660-915a-bd28371980f5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ec3e925e-84ad-4b03-ba0c-de42c5d3fc4e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 113042,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "ce573c9e-9bfb-4423-bad6-c5de21a0bf00",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer2.js",
+      "file": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "eebc74f4-a75a-48cd-98d7-e6e42f5591e4",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Referrer's Detail Questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete a Referrer's Detail Questionnaire",
+              "timedOut": null,
+              "duration": 11963,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//referredPersonDetailsPage.referrerDetails\ncommon.clickButton(\"start\");\ncommon.pageHeader.should(\"contain\", \"What type of referrer are you?\");\nwhatTypeOfReferrerPage.radioOption(data.regulatedEmployer).click();\ncommon.continue();\n//Name Page\ncommon.pageHeader.should(\"contain\", \"What is your name\");\ncommon.inputField(\"First name\", \"Alex\");\ncommon.inputField(\"Last name\", \"Dunga\");\ncommon.continue();\n//Role or job title page\ncommon.pageHeader.should(\"contain\", \"What is your role or job title?\");\nwhatIsRoleOrJobTitle.roleOrJobTitleField.type(data.job_title);\ncommon.continue();\n// What sector do you work in page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What sector do you work in?\");\nwhatSectorDoYouWorkInPage.sectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSectorDropdownOption(\"childCare\"); //this should be enum really, have provided examples elsewhere\nwhatSectorDoYouWorkInPage.subSectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSubSectorDropdownOption(\"Child minder - registered\"); //this should be enum really, have provided examples elsewhere\ncommon.continue();\n//what is the name of your organisation page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What is the name of your organisation?\");\nwhatIsNameOfYourOrganisationPage.organisationNameField.type(\"Reply\");\ncommon.continue();\n// Address lookup page\ncommon.pageHeader.should(\"contain\", \"Find your organisation's address\");\nfindYourOrganisationAddressPage.enterPostCode(); //SW1E 5LBSW1E 5LB.type('SE19 2AS')\nfindYourOrganisationAddressPage.lookUpAddress();\nfindYourOrganisationAddressPage.selectAddress();\ncommon.continue();\n// Referrer contact numbers\ncommon.pageHeader.should(\"contain\", \"What telephone numbers can you be contacted on?\");\ncommon.primarycontactPhone();\ncommon.secondarycontactPhone();\ncommon.continue();\n//Referrer Page\ncommon.pageHeader.should(\"contain\", \"What is your email address?\");\ncommon.referrerEmail();\ncommon.continue();\n//Relationship page\ncommon.pageHeader.should(\"contain\", \"What is your professional or working relationship with the person you are referring?\");\ncommon.referrerRelationship();\ncommon.continue();\n//More details alternative contact page\ncommon.pageHeader.should(\"contain\", \"Would you like to provide details\");\ncy.contains(\"No\").click();\ncommon.continue();\n//Complete a Referred person's details Questionnaire\n//cy.contains('Referred person\\'s details').click()",
+              "err": {},
+              "uuid": "ae3a4c9f-6c97-4a0f-9d1d-2b7f64629b4c",
+              "parentUUID": "eebc74f4-a75a-48cd-98d7-e6e42f5591e4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ae3a4c9f-6c97-4a0f-9d1d-2b7f64629b4c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11963,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "ff1de57c-d1d4-4ab7-8335-b93109ada939",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\regulatedActivityVolunteers\\regulatedActivityProvider_volunteers.js",
+      "file": "cypress\\e2e\\BRS\\regulatedActivityVolunteers\\regulatedActivityProvider_volunteers.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ec89b262-d612-4d79-a427-2c3f1396713c",
+          "title": "Regulated activity provider (employer)",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Regulated activity provider (employer) referral",
+              "fullTitle": "Regulated activity provider (employer) Complete a Regulated activity provider (employer) referral",
+              "timedOut": null,
+              "duration": 100327,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "13970f1c-228a-4690-8625-bb298ebda973",
+              "parentUUID": "ec89b262-d612-4d79-a427-2c3f1396713c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "13970f1c-228a-4690-8625-bb298ebda973"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 100327,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "f32a07fe-c5bb-4c55-a367-9803d80b844e",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\educationalInstitute\\educationalInstitute.js",
+      "file": "cypress\\e2e\\BRS\\educationalInstitute\\educationalInstitute.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9acce9e0-d58d-495a-910b-b5a2385541ca",
+          "title": "Educational institute Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a BRS referral for an educational institute",
+              "fullTitle": "Educational institute Referral Complete a BRS referral for an educational institute",
+              "timedOut": null,
+              "duration": 78573,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\ncourseDetails.getReviewAndSubmit();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "11595f36-6808-4ec8-8e9e-5b8875b512d7",
+              "parentUUID": "9acce9e0-d58d-495a-910b-b5a2385541ca",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "11595f36-6808-4ec8-8e9e-5b8875b512d7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 78573,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "1a370ce7-1bfb-47b5-9006-e829e741aa37",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\employmentPersonnelSupplier\\employmentPersonnelSupplier.js",
+      "file": "cypress\\e2e\\BRS\\employmentPersonnelSupplier\\employmentPersonnelSupplier.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "312b3484-6b68-41e5-b5ec-8292f2e001e1",
+          "title": "Employment personnel supplier referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a employment personnel supplier referral",
+              "fullTitle": "Employment personnel supplier referral Complete a employment personnel supplier referral",
+              "timedOut": null,
+              "duration": 74432,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\nsupplyAgencyDetails.getSupplyAgencyDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "bdbb94f9-372b-404c-be66-42ef41b2cfa0",
+              "parentUUID": "312b3484-6b68-41e5-b5ec-8292f2e001e1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bdbb94f9-372b-404c-be66-42ef41b2cfa0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 74432,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "615d8b1e-a683-472d-baad-0a77cc6e2d1b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\keeperOfRegisterOrSupervisoryAuthority\\6. keeperOfRegisterOrSupervisoryAuthority.js",
+      "file": "cypress\\e2e\\BRS\\keeperOfRegisterOrSupervisoryAuthority\\6. keeperOfRegisterOrSupervisoryAuthority.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1032a243-194c-4e8a-aa15-8a0392a6ff12",
+          "title": "Keeper of Register or Supervisory Authority Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "fullTitle": "Keeper of Register or Supervisory Authority Referral Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "timedOut": null,
+              "duration": 63418,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "a3138693-8384-4b10-a542-1ab06bd27428",
+              "parentUUID": "1032a243-194c-4e8a-aa15-8a0392a6ff12",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a3138693-8384-4b10-a542-1ab06bd27428"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 63418,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "d25ff203-ff5e-4608-a979-b3808dd177f3",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer.js",
+      "file": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8977bd65-a979-470b-8f9b-eaee6b50bbe8",
+          "title": "Regulated activity provider (employer)",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Regulated activity provider (employer) referral",
+              "fullTitle": "Regulated activity provider (employer) Complete a Regulated activity provider (employer) referral",
+              "timedOut": null,
+              "duration": 63317,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "a69600e6-e99a-42ec-b0a8-20ee4d30413a",
+              "parentUUID": "8977bd65-a979-470b-8f9b-eaee6b50bbe8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a69600e6-e99a-42ec-b0a8-20ee4d30413a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 63317,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "efab664a-f859-4c94-bbdb-6773bc3897bd",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer2.js",
+      "file": "cypress\\e2e\\BRS\\regulatedActivityEmployer\\regulatedActivityProvider_Employer2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ed90fd44-1fbf-4525-9100-cc13142ece0a",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Referrer's Detail Questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete a Referrer's Detail Questionnaire",
+              "timedOut": null,
+              "duration": 7470,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//referredPersonDetailsPage.referrerDetails\ncommon.clickButton(\"start\");\ncommon.pageHeader.should(\"contain\", \"What type of referrer are you?\");\nwhatTypeOfReferrerPage.radioOption(data.regulatedEmployer).click();\ncommon.continue();\n//Name Page\ncommon.pageHeader.should(\"contain\", \"What is your name\");\ncommon.inputField(\"First name\", \"Alex\");\ncommon.inputField(\"Last name\", \"Dunga\");\ncommon.continue();\n//Role or job title page\ncommon.pageHeader.should(\"contain\", \"What is your role or job title?\");\nwhatIsRoleOrJobTitle.roleOrJobTitleField.type(data.job_title);\ncommon.continue();\n// What sector do you work in page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What sector do you work in?\");\nwhatSectorDoYouWorkInPage.sectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSectorDropdownOption(\"childCare\"); //this should be enum really, have provided examples elsewhere\nwhatSectorDoYouWorkInPage.subSectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSubSectorDropdownOption(\"Child minder - registered\"); //this should be enum really, have provided examples elsewhere\ncommon.continue();\n//what is the name of your organisation page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What is the name of your organisation?\");\nwhatIsNameOfYourOrganisationPage.organisationNameField.type(\"Reply\");\ncommon.continue();\n// Address lookup page\ncommon.pageHeader.should(\"contain\", \"Find your organisation's address\");\nfindYourOrganisationAddressPage.enterPostCode(); //SW1E 5LBSW1E 5LB.type('SE19 2AS')\nfindYourOrganisationAddressPage.lookUpAddress();\nfindYourOrganisationAddressPage.selectAddress();\ncommon.continue();\n// Referrer contact numbers\ncommon.pageHeader.should(\"contain\", \"What telephone numbers can you be contacted on?\");\ncommon.primarycontactPhone();\ncommon.secondarycontactPhone();\ncommon.continue();\n//Referrer Page\ncommon.pageHeader.should(\"contain\", \"What is your email address?\");\ncommon.referrerEmail();\ncommon.continue();\n//Relationship page\ncommon.pageHeader.should(\"contain\", \"What is your professional or working relationship with the person you are referring?\");\ncommon.referrerRelationship();\ncommon.continue();\n//More details alternative contact page\ncommon.pageHeader.should(\"contain\", \"Would you like to provide details\");\ncy.contains(\"No\").click();\ncommon.continue();\n//Complete a Referred person's details Questionnaire\n//cy.contains('Referred person\\'s details').click()",
+              "err": {},
+              "uuid": "10005303-6bb0-45c2-a76f-64a2d2c9dde4",
+              "parentUUID": "ed90fd44-1fbf-4525-9100-cc13142ece0a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "10005303-6bb0-45c2-a76f-64a2d2c9dde4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7470,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "8cce981b-0992-41af-a4e7-59fa7cbb6c4d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\Other\\otherReferralType.js",
+      "file": "cypress\\e2e\\BRS\\Other\\otherReferralType.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d28690cf-131d-4d3f-996f-fc94f85e8502",
+          "title": "Complete a Other Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "fullTitle": "Complete a Other Referral Complete and submit a Keeper of register or supervisory authority referral questionnaire",
+              "timedOut": null,
+              "duration": 60672,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "otherStartPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "b63f69b0-8e36-4104-b15b-0fbcc5a37930",
+              "parentUUID": "d28690cf-131d-4d3f-996f-fc94f85e8502",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b63f69b0-8e36-4104-b15b-0fbcc5a37930"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 60672,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "332e1875-ed9c-4384-afd3-cd0fddc2a2b2",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment.js",
+      "file": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "15a67011-bc72-42c1-8d2f-10ac29dec904",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete and submit a local authority or government referral questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete and submit a local authority or government referral questionnaire",
+              "timedOut": null,
+              "duration": 65475,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "c62bd2da-b8d3-48b5-a84e-5562de4bb0d2",
+              "parentUUID": "15a67011-bc72-42c1-8d2f-10ac29dec904",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c62bd2da-b8d3-48b5-a84e-5562de4bb0d2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 65475,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "5bfdf2c2-babc-435f-8da0-93176cdac174",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment2.js",
+      "file": "cypress\\e2e\\BRS\\localAuthorityOrGovernment\\localAuthorityOrGovernment2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d774f859-4e21-4071-bee1-1f5c765eb145",
+          "title": "Local Authority or Government Referral",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Referrer's Detail Questionnaire",
+              "fullTitle": "Local Authority or Government Referral Complete a Referrer's Detail Questionnaire",
+              "timedOut": null,
+              "duration": 6996,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "common.clickButton(\"start\");\ncommon.pageHeader.should(\"contain\", \"What type of referrer are you?\");\nwhatTypeOfReferrerPage.radioOption(data.localAuthority).click();\ncommon.continue();\n//Name Page\ncommon.pageHeader.should(\"contain\", \"What is your name\");\ncommon.inputField(\"First name\", \"Alex\");\ncommon.inputField(\"Last name\", \"Dunga\");\ncommon.continue();\n//Role or job title page\ncommon.pageHeader.should(\"contain\", \"What is your role or job title?\");\nwhatIsRoleOrJobTitle.roleOrJobTitleField.type(data.job_title);\ncommon.continue();\n// What sector do you work in page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What sector do you work in?\");\nwhatSectorDoYouWorkInPage.sectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSectorDropdownOption(\"childCare\"); //this should be enum really, have provided examples elsewhere\nwhatSectorDoYouWorkInPage.subSectorDropdown.should(\"be.visible\");\nwhatSectorDoYouWorkInPage.selectSubSectorDropdownOption(\"Child minder - registered\"); //this should be enum really, have provided examples elsewhere\ncommon.continue();\n//what is the name of your organisation page\ncommon.pageHeader.should(\"be.visible\").and(\"contain\", \"What is the name of your organisation?\");\nwhatIsNameOfYourOrganisationPage.organisationNameField.type(\"Reply\");\ncommon.continue();\n// Address lookup page\ncommon.pageHeader.should(\"contain\", \"Find your organisation's address\");\nfindYourOrganisationAddressPage.enterPostCode(); //SW1E 5LBSW1E 5LB.type('SE19 2AS')\nfindYourOrganisationAddressPage.lookUpAddress();\nfindYourOrganisationAddressPage.selectAddress();\ncommon.continue();\n// Referrer contact numbers\ncommon.pageHeader.should(\"contain\", \"What telephone numbers can you be contacted on?\");\ncommon.primarycontactPhone();\ncommon.secondarycontactPhone();\ncommon.continue();\n//Referrer Page\ncommon.pageHeader.should(\"contain\", \"What is your email address?\");\ncommon.referrerEmail();\ncommon.continue();\n//Relationship page\ncommon.pageHeader.should(\"contain\", \"What is your professional or working relationship with the person you are referring?\");\ncommon.referrerRelationship();\ncommon.continue();\n//More details alternative contact page\ncommon.pageHeader.should(\"contain\", \"Would you like to provide details\");\ncy.contains(\"No\").click();\ncommon.continue();",
+              "err": {},
+              "uuid": "b63e4896-7ee8-4bf7-a646-797765012e08",
+              "parentUUID": "d774f859-4e21-4071-bee1-1f5c765eb145",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b63e4896-7ee8-4bf7-a646-797765012e08"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6996,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "c9bf0884-88ef-4aef-b6db-8eba137ed01c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BRS\\regulatedActivityVolunteers\\regulatedActivityProvider_volunteers.js",
+      "file": "cypress\\e2e\\BRS\\regulatedActivityVolunteers\\regulatedActivityProvider_volunteers.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3b231fdf-6514-4fc7-9624-aa332f6621b4",
+          "title": "Regulated activity provider (employer)",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Complete a Regulated activity provider (employer) referral",
+              "fullTitle": "Regulated activity provider (employer) Complete a Regulated activity provider (employer) referral",
+              "timedOut": null,
+              "duration": 64059,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "startPage.getOtherStartPageDetails();\nyourDetails.getReferrerDetails();\nreferredPersonDetails.getReferredPersonDetails();\nreferredPersonEmpDetails.getReferredPersonEmpDetails();\nreferredPersonEmpDate.getReferredPersonEmpDate();\nreasonForReferral.getReasonForReferral();\nharmedPersonDetails.getHarmedPersonDetails();\nadditionalInformation.getAdditionalInformation();\notherAgencies.getOtherAgencies();",
+              "err": {},
+              "uuid": "7be4a397-dafc-4201-8588-d23a0762c3ae",
+              "parentUUID": "3b231fdf-6514-4fc7-9624-aa332f6621b4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7be4a397-dafc-4201-8588-d23a0762c3ae"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 64059,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
